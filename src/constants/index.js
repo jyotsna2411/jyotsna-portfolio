@@ -25,12 +25,14 @@ import {
   threejs,
   skeepimg,
   idutorimg,
+  mpsimg,
   notarizeimg,
   skeeplogo,
   idutorlogo,
   mpslogo,
   ahcflogo,
   notarizelogo,
+  adobe,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +117,10 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
+  },
+  {
+    name: "Adobe Photoshop",
+    icon: adobe,
   },
 ];
 
@@ -233,6 +239,7 @@ const projects = [
     image: notarizeimg,
     source_code_link: "https://www.notarizegenie.com/",
   },
+
   {
     name: "idutor",
     description:
@@ -254,6 +261,33 @@ const projects = [
     icon: idutorlogo,
     image: idutorimg,
     source_code_link: "https://idutor.com/",
+  },
+
+  {
+    name: "mpsinfotech.in",
+    description:
+      "An IT solution company that provides services like custom software development and mobile app development  to web development and cloud computing solutions, we offer a full range of services to meet the unique needs of our clients. . ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "wordpress",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AdobePhotoshop",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mpsimg,
+    icon: mpslogo,
+    source_code_link: "https://mpsinfotech.in/",
   },
 ];
 

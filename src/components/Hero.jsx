@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div style={{ display: "block" }}>
+        <div style={{ display: "block", position: "relative" }}>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Jyotsna Sehgal</span>
           </h1>
@@ -26,7 +26,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
@@ -45,7 +45,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
-      <img
+      {/* <img
         src={herobg}
         style={{
           height: "500px",
@@ -55,7 +55,7 @@ const Hero = () => {
           transform: "translateX(-50%)",
           bottom: "-10%",
         }}
-      />
+      /> */}
     </section>
   );
 };

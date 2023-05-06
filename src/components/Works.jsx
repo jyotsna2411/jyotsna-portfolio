@@ -86,6 +86,16 @@ const Works = () => {
           links to code repositories and live demos in it. It reflects my
           ability to solve complex problems, work with different technologies,
           and manage projects effectively.
+          <br />
+          <br /> <strong>Responsibilities</strong>
+          <br></br>
+          <ul style={{ listStyleType: "circle" }}>
+            <li>Created visual designs</li>
+            <li>Understood client requirements</li>
+            <li>Created digital assets</li>
+            <li>Reviewed and refined designs</li>
+            <li>Implemented designs using SCSS and javascript frameworks</li>
+          </ul>
         </motion.p>
       </div>
 

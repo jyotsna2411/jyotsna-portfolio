@@ -30,17 +30,23 @@ import carrent from "./carrent.png";
 import skeepimg from "./skeepimg.png";
 import notarizeimg from "./notarizeimg.png";
 import idutorimg from "./idutorimg.png";
+import mpsimg from "./mpsimg.png";
+
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import skeeplogo from "./skeeplogo.svg";
 import idutorlogo from "./idutorlogo.svg";
 import notarizelogo from "./notarizelogo.svg";
-import mpslogo from "./mpslogo.svg";
 import ahcflogo from "./ahcflogo.svg";
+import mpslogo from "./mpslogo.png";
+import adobe from "./adobe.png";
 
 import herobg from "./herobg.png";
 
 export {
+  adobe,
+  mpslogo,
+  mpsimg,
   herobg,
   idutorlogo,
   notarizelogo,
@@ -76,6 +82,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  mpslogo,
   ahcflogo,
 };
