@@ -47,20 +47,20 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4  text-[17px] max-w-3xl leading-[30px]"
       >
-        3 years of experience as a Front-End-Developer have acquainted me well
-        with the nuances of this role. I have worked on various enterprise-level
-        projects comprising an e-commerce brand management system, an online
-        notary system, official banking websites, and web-scrapping projects. I
-        have worked with Typescript, React-js, React-Native, Nodejs, MongoDB,
-        and related technologies namely Redux-Toolkit, Zustand for global state
-        management and MUI, Evergreen-Ui, and Mantine for creating contemporary
-        UI designs. Besides that, I'm proficient in Javascript, CSS3, and
-        HTML5.I have worked with version control system namely GIT. Moreover, I
-        have a working knowledge of other programming languages like Python,
-        Java, and SQL. Being well-versed in advanced design patterns and code
-        optimization in react I make an effort to avoid unnecessary re-renders
-        and write modular, scalable code. Additionally , I keep myself
-        up-to-date with the latest design patterns in react.
+        2+ years of experience as a Front-End-Developer and Graphic Designer
+        have acquainted me well with the nuances of this role. I have worked on
+        various enterprise-level projects comprising an e-commerce brand
+        management system, an online notary system, official banking websites,
+        and web-scrapping projects. I have worked with Typescript, React-js,
+        React-Native, Nodejs, MongoDB, and related technologies namely
+        Redux-Toolkit, Zustand for global state management and MUI,
+        Evergreen-Ui, and Mantine ,Figma,Adobe Photoshop for creating
+        contemporary UI designs. Being well-versed in advanced design patterns
+        and code optimization I make an effort to create scalable and responsive
+        designs. Besides that, I'm proficient in Javascript, CSS3, and HTML5.I
+        have worked with version control system namely GIT. Moreover, I have a
+        working knowledge of other programming languages like Python, Java, and
+        SQL.{" "}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
