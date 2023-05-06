@@ -21,7 +21,8 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Front-end Developer with 2+ years of <br />
-            commercial experience creating challenging websites.
+            commercial experience creating challenging websites and contemporary
+            designs.
           </p>
         </div>
       </div>
