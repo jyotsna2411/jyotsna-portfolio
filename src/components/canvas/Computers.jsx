@@ -99,8 +99,8 @@ function Dodecahedron() {
 
   const ref = useRef();
   useFrame(({ mouse }) => {
-    const x = (mouse.x * viewport.width) / 2;
-    const y = (mouse.y * viewport.height) / 2;
+    const x = (mouse.x * viewport.width) / 4;
+    const y = (mouse.y * viewport.height) / 6;
     ref.current.position.set(x, y, 0);
     ref.current.rotation.set(-y, x, 0);
   });
