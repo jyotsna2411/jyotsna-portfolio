@@ -86,7 +86,7 @@
 // export default ComputersCanvas;
 
 import ReactDOM from "react-dom";
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Canvas, useThree, useFrame } from "@react-three/fiber";
 import { useGLTF, useHelper } from "@react-three/drei";
 import { PointLightHelper, SpotLightHelper } from "three";
@@ -147,6 +147,29 @@ function Dodecahedron() {
 }
 
 const Model = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Add a listener for changes to the screen size
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+
+    // Set the initial value of the `isMobile` state variable
+    setIsMobile(mediaQuery.matches);
+
+    // Define a callback function to handle changes to the media query
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    //     // Add the callback function as a listener for changes to the media query
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    //     // Remove the listener when the component is unmounted
+    return () => {
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
+
   return (
     <Canvas shadowMap camera={{ position: [0, 0, 5] }}>
       <ambientLight intensity={0.5} />
@@ -159,8 +182,7 @@ const Model = () => {
         shadow-mapSize-height={2048}
         castShadow
       />
-
-      <Dodecahedron />
+      {!isMobile && <Dodecahedron />}
     </Canvas>
   );
 };
